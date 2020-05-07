@@ -6,7 +6,7 @@ const options = ['PEDRA', 'PAPEL', 'TESOURA'];
 
 
 btnPlay.addEventListener('click', e => {
-   let number = Math.floor(Math.random() * options.length -1 );
+   let number = Math.floor(Math.random() * options.length);
    
    if(inputPlayer.value === '0' || 
       inputPlayer.value === '1' || 
