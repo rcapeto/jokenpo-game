@@ -58,13 +58,13 @@ btnPlay.addEventListener('click', e => {
       }
       divResult.innerHTML = '<p>Calculando...</p>'
 
-      let timer = setInterval(() => {
+      setTimeout(() => {
          divResult. innerHTML = `
             <p>O computador escolheu <strong>${pc}</strong></p>
             <p>O jogador escolheu <strong>${player}</strong></p>
             <p><strong>${result}</strong></p>
          `;
-         clearInterval(timer);
+         
       }, 2000)
       
    } else {
